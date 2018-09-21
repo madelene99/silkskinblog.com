@@ -1,0 +1,424 @@
+.icon-check {
+  background-image: url(../img/sprite.png)/*tpa=http://esonstyle.mag-skidka.ru/img/sprite.png*/;
+  background-position: 0px 0px;
+  width: 46px;
+  height: 46px;
+}
+
+.icon-plus {
+  background-image: url(../img/sprite.png)/*tpa=http://esonstyle.mag-skidka.ru/img/sprite.png*/;
+  background-position: -56px 0px;
+  width: 29px;
+  height: 29px;
+}
+
+@media only screen and (max-width: 1200px) {
+  /**/
+}
+
+@media only screen and (max-width: 1023px) {
+  .only-desctop {
+    display: none !important;
+  }
+  .fleft,
+  .fright {
+    float: none;
+  }
+  /*=============== section 1 ===============*/
+  .section_1 .sec-head {
+    min-height: initial;
+  }
+  .section_1 .sec-head h2 {
+    font-size: 30px;
+    line-height: 1;
+  }
+  .section_1 .sec-head__text {
+    padding: 10px;
+  }
+  .section_1 .sec-body {
+    text-align: center;
+    padding: 20px 0 0;
+    height: 350px;
+  }
+  .section_1 .sec-body:after {
+    width: 290px;
+    height: 130px;
+  }
+  .section_1 .sec-body .text--1 {
+    font-size: 26px;
+  }
+  .section_1 .sec-body .text--2 {
+    font-size: 32px;
+    margin: 10px 0 0;
+  }
+  .section_1 .sec-body .text .accent {
+    display: block;
+    margin: 5px 0 0;
+  }
+  .section_1 .sec-body .butn-block {
+    position: static;
+    width: 100%;
+    margin: 15px 0 0;
+  }
+  .section_1 .sec-footer {
+    min-height: initial;
+  }
+  .section_1 .sec-footer h2 {
+    font-size: 30px;
+    line-height: 1;
+  }
+  .section_1 .sec-footer__text {
+    padding: 10px;
+  }
+  /*=============== END section 1 ===============*/
+  /*=============== section 2 ===============*/
+  .section_2 {
+    padding: 20px 0 0;
+  }
+  .section_2 .sec-head__inner {
+    display: block;
+  }
+  .section_2 .sec-head .logo {
+    display: block;
+    width: 100%;
+    -webkit-border-top-right-radius: initial;
+    border-top-right-radius: initial;
+  }
+  .section_2 .sec-head .descr {
+    display: block;
+    padding: 10px;
+  }
+  .section_2 .sec-head .descr .text--1 {
+    font-size: 32px;
+    line-height: 1;
+  }
+  .section_2 .sec-head .descr .text--2 {
+    font-size: 26px;
+    line-height: 1;
+  }
+  .section_2 .sec-body {
+    padding: 20px 0 0;
+  }
+  .section_2 .sec-body .left-side__inner {
+    display: block;
+  }
+  .section_2 .sec-body .latex {
+    display: block;
+    width: 215px;
+    margin: 0 auto;
+  }
+  .section_2 .sec-body .latex__top-text {
+    text-align: center;
+  }
+  .section_2 .sec-body .descr {
+    display: block;
+    padding: 20px 0;
+  }
+  .section_2 .sec-body .descr .text {
+    font-size: 24px;
+    line-height: 1;
+  }
+  .section_2 .sec-body .security__head-text {
+    font-size: 28px;
+    padding-left: 20px;
+  }
+  .section_2 .sec-body .security__descr {
+    margin: 20px 0 0;
+  }
+  /*=============== END section 2 ===============*/
+  /*=============== section 3 ===============*/
+  .section_3 .sec-head .text {
+    font-size: 34px;
+    line-height: 1;
+    text-align: center;
+  }
+  .section_3 .sec-body .list__item {
+    padding: 10px 10px 10px 70px;
+    font-size: 18px;
+  }
+  .section_3 .sec-body .list__item:not(:last-of-type) {
+    margin: 0 0 15px;
+  }
+  .section_3 .sec-body .block-title {
+    margin: 20px 0 0;
+    padding: 0 0 200px;
+  }
+  .section_3 .sec-body .block-title .text {
+    font-size: 40px;
+    line-height: 1;
+  }
+  .section_3 .sec-body .block-title:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 208px;
+    width: 195px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: 50px;
+    background: url(../img/girl2.png)/*tpa=http://esonstyle.mag-skidka.ru/img/girl2.png*/ no-repeat 50% 50%;
+    background-size: cover;
+  }
+  /*=============== END section 3 ===============*/
+  /*=============== section 4 ===============*/
+  .section_4 .hands-img {
+    width: 100%;
+  }
+  .section_4 .hands__title {
+    display: block;
+    position: static;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    width: 100%;
+  }
+  .section_4 .hands__title .size {
+    display: block;
+    height: auto;
+    width: 100%;
+    border: none;
+    -webkit-border-radius: initial;
+    border-radius: initial;
+    margin: 15px 0;
+  }
+  .section_4 .hands__title .training {
+    display: block;
+  }
+  .section_4 .hands__title .training__inner {
+    padding: 20px 10px;
+  }
+  .section_4 .hands__title .training__inner:after {
+    display: none;
+  }
+  .section_4 .set {
+    min-height: initial;
+  }
+  .section_4 .set__inner {
+    display: block;
+  }
+  .section_4 .set .five {
+    display: none;
+  }
+  .section_4 .set .set-gum {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+  }
+  .section_4 .set .set-gum .number-five--mob {
+    display: inline-block;
+  }
+  .section_4 .set .set-gum__text {
+    font-size: 26px;
+  }
+  .section_4 .set .set-gum__text .accent {
+    font-size: 26px;
+  }
+  .section_4 .varieties {
+    margin: 20px 0 0;
+    padding: 0;
+  }
+  .section_4 .varieties .types__item {
+    display: block;
+    margin: 0 0 15px;
+  }
+  .section_4 .varieties .types .gum {
+    display: block;
+  }
+  .section_4 .varieties .types .density {
+    display: block;
+    text-align: left;
+  }
+  .section_4 .varieties .types .density:after {
+    display: none;
+  }
+  .section_4 .varieties .types .density__text {
+    font-size: 26px;
+  }
+  /*=============== END section 4 ===============*/
+  /*=============== section 5 ===============*/
+  .section_5 {
+    margin: 10px 0 0;
+  }
+  .section_5 .sec-head {
+    min-height: initial;
+  }
+  .section_5 .sec-head h2 {
+    font-size: 30px;
+    line-height: 1;
+  }
+  .section_5 .sec-head__text {
+    padding: 10px;
+  }
+  .section_5 .tile {
+    margin: 20px 0 0;
+  }
+  .section_5 .tile__head-text {
+    font-size: 24px;
+  }
+  .section_5 .tile__pic {
+    text-align: center;
+    margin: 10px 0 0;
+  }
+  .section_5 .tile__img {
+    max-width: 160px;
+    display: inline-block;
+  }
+  /*=============== END section 5 ===============*/
+  /*=============== section 6 ===============*/
+  .section_6 .sec-head {
+    min-height: initial;
+  }
+  .section_6 .sec-head h2 {
+    font-size: 30px;
+    line-height: 1;
+  }
+  .section_6 .sec-head__text {
+    padding: 10px;
+  }
+  .section_6 .slider-arrows {
+    min-width: 290px;
+  }
+  /*=============== END section 6 ===============*/
+  /*=============== section 7 ===============*/
+  .section_7 #u1229_align_to_page {
+    width: 100%;
+    padding: 20px 0 0;
+  }
+  .section_7 #u1245-5 {
+    padding: 0;
+    text-align: center;
+  }
+  .section_7 .insta .video {
+    max-width: 100%;
+  }
+  .section_7 .insta .insta__item {
+    width: 100%;
+    margin: 0;
+  }
+  .section_7 .insta .insta__item .name {
+    min-height: initial;
+  }
+  .section_7 .insta .insta__item .autor {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .section_7 .insta .insta__item .header {
+    padding: 6px;
+  }
+  .section_7 .follow {
+    padding: 0;
+  }
+  .section_7 .EmbedTimestamp {
+    float: none;
+    width: auto;
+    display: inline-block;
+    padding-top: 0;
+  }
+  .section_7 #u1278-6 {
+    display: none;
+  }
+  .section_7 .EmbedFooter {
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  .section_7 .comments {
+    width: auto;
+  }
+  .section_7 .comments .comment {
+    float: left;
+    height: 100%;
+    width: 290px !important;
+  }
+  .section_7 .comments .comment:nth-of-type(odd) {
+    margin-right: 0;
+  }
+  .section_7 .comments .comment__header {
+    height: 63px;
+    background-size: cover;
+  }
+  .section_7 .comments .comment__header-title {
+    padding-top: 30px;
+  }
+  .section_7 .comments .comment__header-title .time {
+    font-size: 13px;
+    top: 3px;
+    right: 3px;
+  }
+  .section_7 .comments .comment__footer {
+    height: 35px;
+    padding-bottom: 10px;
+  }
+  .section_7 .comments .comment__footer .like .num {
+    margin-left: 60px;
+  }
+  .section_7 .comments .comment__footer .repost:after {
+    right: 70px;
+  }
+  /*=============== END section 7 ===============*/
+  /*=============== section 8 ===============*/
+  .section_8 {
+    padding: 30px 0 0;
+  }
+  .section_8 .sec-head {
+    margin: 0 0 20px;
+  }
+  .section_8 .sec-head__inner {
+    padding: 0 10px;
+  }
+  .section_8 .sec-head__text {
+    font-size: 38px;
+  }
+  .section_8 .meshok {
+    margin: 30px 0 0;
+  }
+  .section_8 .meshok .price-box {
+    margin: 0;
+  }
+  .section_8 .meshok .price-descr {
+    margin: 15px 0;
+    font-size: 24px;
+    line-height: 1;
+    max-width: initial;
+  }
+  .section_8 .meshok-wrap {
+    position: static;
+    margin: 0 auto;
+  }
+  .section_8 .bottom-girl {
+    display: none;
+  }
+  .section_8 .form-box {
+    margin: 15px 0 0;
+  }
+  .section_8 .form-box__inner {
+    padding: 15px;
+  }
+  .section_8 .form-box__head .text {
+    font-size: 26px;
+  }
+  .section_8 .form-box__body {
+    margin: 14px 0 0;
+  }
+  .section_8 .form-box__body .input {
+    margin-bottom: 10px;
+  }
+  .section_8 .form-box .butn-block {
+    margin: 20px 0 0;
+  }
+  .section_8 .form-box .logo-footer {
+    margin: 15px 0 0;
+  }
+  /*=============== END section 8 ===============*/
+}
+
+/* removeIf(wap) */
+@media only screen and (min-width: 1024px) {
+  .only-mobile {
+    display: none !important;
+  }
+}
+
+/* endRemoveIf(wap) */

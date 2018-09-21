@@ -1,0 +1,21 @@
+var phone_mask = {
+   'RU': '+7 (916) 123-45-67',
+   'UA': '+38 (000) 000-00-00',
+   'KZ': '+7 (000) 000-00-00',
+   'AZ': '+994 0000000000',
+   'MD': '+373 (00) 000-00-00',
+   'BY': '+375 (00) 000-00-00',
+   'AM': '+0000000000000',
+   'GE': '+995 (000) 00-00-00',
+   '-': '+0000000000000'
+  }
+$(function () {
+ $('input[name=phone]').attr('placeholder', phone_mask[window.country]);
+ var field = document.body.querySelectorAll('label[for=f_tel] font');
+ //console.log(field);
+ if( field.length > 0 ){
+   for (var i = 0; i < field.length; i++) {
+      field[i].innerHTML = '(Например: ' +phone_mask[window.country]+')'
+   }
+ }
+});
